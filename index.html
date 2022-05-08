@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    #myHeader {
+      background-color: beige;
+      color: black;
+      padding: 40px;
+      text-align: center;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="HTML, Demo, Practice">
+  <meta name="description" content="HTML Tutorial">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+<body>
+  <header id="header">
+    <h1>My heading</h1>
+  </header>
+
+  <nav>
+    <a href="#myHeader">Jump to My Header</a>
+    <a href="https://www.w3schools.com" style="background-color:grey"><b>This is a link</b></a>
+  </nav>
+
+  <section>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+      type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+      remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+      Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+      of Lorem Ipsum.</p>
+    <p><strong>This is a strong link</strong></p>
+    <p><em>This is a emphasized link</em></p>
+    <div>
+      <p id="myHeader">My Header</p>
+      <button onclick="displayHeader()">Change text</button><br>
+      <button type="button" onclick="changeColor()">Change Color</button>
+    </div>
+  </section>
+
+  <section style="border: 2px black">
+    <table>
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools.com!</a>
+    <a href="mailto:abcd@adbcd.com">Send Mail</a>
+  </section>
+  <section>
+    <iframe src="demoFrame.html" height="200" width="300" name="iframe_a" title="Iframe example"
+      style="border:none"></iframe>
+
+    <p><a href="index.html" target="iframe_a">W3Schools.com</a></p>
+  </section>
+
+<form autocomplete="on">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+
+  <label for="cars">Select car:</label>
+  <select id="cars" name="cars">
+    <option value="Select" selected>Select</option>
+    <option value="Volvo">Volvo</option>
+    <option value="BMW">BMW</option>
+    <option value="Mercedes">Mercedes</option>
+  </select>
+</form>
+
+<iframe width="415" height="200"
+  src="https://www.youtube.com/embed/YTorYuKsrLI">
+</iframe>
+
+  <footer>
+    <img src="OIP.jfif" alt="W3Schools.com" width="104" height="100">
+  </footer>
+
+  <!-- Scripts-->
+  <script src="demoScript.js"></script>
+</body>
+
+</html>
